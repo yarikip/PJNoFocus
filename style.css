@@ -8,22 +8,41 @@
     src: local(IBM-reg),
     url(assets/IBM_Plex_Mono/IBMPlexMono-Regular.ttf)
 }
-
+body{
+    margin: 0;
+}
+.img{
+    position: absolute;
+    z-index: o;
+}
 .upper{
-    background-image: url(assets/back.png);
-    height: 100vh;
-    width: 100vh;
+  background-color: aliceblue;
 }
 button{
     background: transparent;
     color: #ff0070;
     outline: transparent;
-    border: transparent;
+    border: none;
     font-family: IBM-reg;
     font-size: 18px;
     cursor: pointer;
+    font-weight: 400;
+    padding: 0 13px 0 13px;
+}
+.neon:hover{
+    border: #ff0070;
+    border-radius: 1 px;
 }
 nav{
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+.rec{
+    position: absolute;
+    right: 50px;
+    z-index: 10;
+    font-family: IBM-reg;
+    color: #ff0070;
 }

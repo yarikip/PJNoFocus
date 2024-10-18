@@ -24,15 +24,15 @@
     text-decoration: none;
   }
 
-  .dark a:hover{
+  a:hover{
     border-bottom: 2px solid #F1B2CE;
   }
 
-  .dark a:focus{
+  a:focus{
     border: 1px solid #F1B2CE;
   }
 
-  .dark {
+  .dark{
     background-color: #000028;
     display: flex;
     flex-direction: row;
@@ -40,14 +40,14 @@
     width: 100%;
   }
   
-  .dark .page {
+  .page {
     background-color: #000028;
     width: 1024px;
     height: 5008px;
     position: relative;
   }
   
-  .dark .footer {
+  .footer {
     position: absolute;
     width: 1024px;
     height: 768px;
@@ -55,13 +55,13 @@
     left: 0;
   }
   
-  .dark .overlap-group {
+  .overlap-group {
     position: relative;
     width: 1024px;
     height: 768px;
   }
   
-  .dark .text-wrapper {
+  .text-wrapper {
     position: absolute;
     top: 318px;
     left: 277px;
@@ -74,7 +74,7 @@
     white-space: nowrap;
   }
   
-  .dark .decorations {
+  .decorations {
     display: flex;
     flex-direction: column;
     width: 1024px;
@@ -88,7 +88,7 @@
     left: 0;
   }
   
-  .dark .corners {
+  .corners {
     position: relative;
     flex: 1;
     align-self: stretch;
@@ -96,7 +96,7 @@
     flex-grow: 1;
   }
   
-  .dark .c1, .c2{
+  .c1, .c2{
     position: absolute;
     width: 25px;
     height: 25px;
@@ -104,7 +104,7 @@
     border-color: #ff006f;
   }
 
-  .dark .c1 {
+  .c1 {
     top: 0;
     left: 959px;
     border-top-width: 1px;
@@ -112,14 +112,14 @@
 
   }
   
-  .dark .c2 {
+  .c2 {
     top: 703px;
     left: 0;
     border-bottom-width: 1px;
     border-left-width: 1px;
   }
   
-  .dark .main {
+  .main {
     position: absolute;
     width: 1024px;
     height: 3352px;
@@ -127,7 +127,7 @@
     left: 0;
   }
   
-  .dark .section {
+  .section {
     display: flex;
     flex-direction: column;
     width: 1024px;
@@ -138,7 +138,7 @@
     left: 0;
   }
   
-  .dark .rectangle-3 {
+  .rectangle-3 {
     position: absolute;
     width: 984px;
     height: 23px;
@@ -147,7 +147,7 @@
     background-color: #ff006f;
   }
   
-  .dark .group-2 {
+  .group-2 {
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -155,7 +155,7 @@
     margin-right: -2px;
   }
   
-  .dark .element {
+  .element {
     position: absolute;
     width: 649px;
     height: 260px;
@@ -164,7 +164,7 @@
     object-fit: cover;
   }
   
-  .dark .img {
+  .img {
     position: absolute;
     width: 315px;
     height: 595px;
@@ -173,7 +173,7 @@
     object-fit: cover;
   }
   
-  .dark .element-2 {
+  .element-2 {
     position: absolute;
     width: 315px;
     height: 768px;
@@ -182,7 +182,7 @@
     object-fit: cover;
   }
   
-  .dark .element-3 {
+  .element-3 {
     position: absolute;
     width: 649px;
     height: 428px;
@@ -191,7 +191,7 @@
     object-fit: cover;
   }
   
-  .dark .element-4 {
+  .element-4 {
     position: absolute;
     width: 315px;
     height: 315px;
@@ -200,7 +200,7 @@
     object-fit: cover;
   }
   
-  .dark .text-wrapper-2 {
+  .text-wrapper-2 {
     width: 984px;
     top: 0;
     font-weight: 700;
@@ -214,7 +214,7 @@
     line-height: 23.4px;
   }
   
-  .dark .section-2 {
+  .section-2 {
     top: 1166px;
     display: flex;
     flex-direction: column;
@@ -225,7 +225,7 @@
     left: 0;
   }
   
-  .dark .rectangles {
+  .rectangles {
     position: absolute;
     width: 649px;
     height: 888px;
@@ -233,7 +233,7 @@
     left: 355px;
   }
   
-  .dark .rectangle-4 {
+  .rectangle-4 {
     position: absolute;
     width: 649px;
     height: 23px;
@@ -242,7 +242,7 @@
     background-color: #ff006f;
   }
   
-  .dark .rectangle-5 {
+  .rectangle-5 {
     position: absolute;
     width: 649px;
     height: 23px;
@@ -251,7 +251,7 @@
     background-color: #ff006f;
   }
   
-  .dark .rectangle-6 {
+  .rectangle-6 {
     position: absolute;
     width: 649px;
     height: 23px;
@@ -260,7 +260,7 @@
     background-color: #ff006f;
   }
   
-  .dark .rectangle-7 {
+  .rectangle-7 {
     position: absolute;
     width: 649px;
     height: 24px;
@@ -269,7 +269,7 @@
     background-color: #ff006f;
   }
   
-  .dark .rectangle-8 {
+  .rectangle-8 {
     position: absolute;
     width: 649px;
     height: 24px;
@@ -278,7 +278,7 @@
     background-color: #ff006f;
   }
   
-  .dark .rectangle-9 {
+  .rectangle-9 {
     position: absolute;
     width: 649px;
     height: 23px;
@@ -287,14 +287,14 @@
     background-color: #ff006f;
   }
   
-  .dark .group-3 {
+  .group-3 {
     position: relative;
     width: 986px;
     height: 1015px;
     margin-right: -2px;
   }
   
-  .dark .content {
+  .content {
     display: flex;
     flex-direction: column;
     width: 649px;
@@ -305,7 +305,7 @@
     left: 335px;
   }
   
-  .dark .p {
+  .p {
     position: relative;
     align-self: stretch;
     height: 23px;
@@ -319,7 +319,7 @@
     white-space: nowrap;
   }
   
-  .dark .view {
+  .view {
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -327,7 +327,7 @@
     margin-right: -4px;
   }
   
-  .dark .text {
+  .text {
     position: absolute;
     width: 649px;
     top: 33px;
@@ -340,7 +340,7 @@
     letter-spacing: 0;
   }
   
-  .dark .text-wrapper-4 {
+  .text-wrapper-4 {
     position: absolute;
     width: 649px;
     top: 0;
@@ -354,7 +354,7 @@
     white-space: nowrap;
   }
   
-  .dark .view-2 {
+  .view-2 {
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -362,7 +362,7 @@
     margin-right: -4px;
   }
 
-  .dark .view-3 {
+  .view-3 {
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -370,7 +370,7 @@
     margin-right: -2px;
   }
   
-  .dark .overlap-group-wrapper {
+  .overlap-group-wrapper {
     position: absolute;
     width: 653px;
     height: 164px;
@@ -378,13 +378,13 @@
     left: 0;
   }
   
-  .dark .overlap-group-2 {
+  .overlap-group-2 {
     position: relative;
     width: 649px;
     height: 164px;
   }
   
-  .dark .link-effects {
+  .link-effects {
     position: absolute;
     width: 77px;
     top: 26px;
@@ -397,7 +397,7 @@
     line-height: normal;
   }
   
-  .dark .div-2 {
+  .div-2 {
     position: absolute;
     width: 649px;
     top: 0;
@@ -410,7 +410,7 @@
     letter-spacing: 0;
   }
   
-  .dark .span {
+  .span {
     
     font-weight: 400;
     color: #f1b2ce;
@@ -419,7 +419,7 @@
     line-height: 23.4px;
   }
   
-  .dark .view-4 {
+  .view-4 {
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -427,7 +427,7 @@
     margin-right: -4px;
   }
   
-  .dark .title {
+  .title {
     position: absolute;
     width: 315px;
     top: 0;
@@ -440,7 +440,7 @@
     line-height: 23.4px;
   }
   
-  .dark .section-3 {
+  .section-3 {
     top: 588px;
     display: flex;
     flex-direction: column;
@@ -451,7 +451,7 @@
     left: 0;
   }
   
-  .dark .rectangles-2 {
+  .rectangles-2 {
     position: absolute;
     width: 984px;
     height: 23px;
@@ -459,7 +459,7 @@
     left: 20px;
   }
   
-  .dark .rectangle-10 {
+  .rectangle-10 {
     position: absolute;
     width: 315px;
     height: 23px;
@@ -468,7 +468,7 @@
     background-color: #ff006f;
   }
   
-  .dark .rectangle-11 {
+  .rectangle-11 {
     position: absolute;
     width: 315px;
     height: 23px;
@@ -477,7 +477,7 @@
     background-color: #ff006f;
   }
   
-  .dark .rectangle-12 {
+  .rectangle-12 {
     position: absolute;
     width: 315px;
     height: 23px;
@@ -486,14 +486,14 @@
     background-color: #ff006f;
   }
   
-  .dark .group-4 {
+  .group-4 {
     position: relative;
     width: 986px;
     height: 498px;
     margin-right: -2px;
   }
   
-  .dark .content-2 {
+  .content-2 {
     display: flex;
     width: 984px;
     align-items: flex-start;
@@ -503,13 +503,13 @@
     left: 0;
   }
   
-  .dark .view-5 {
+  .view-5 {
     position: relative;
     width: 319px;
     height: 384px;
   }
   
-  .dark .text-wrapper-6 {
+  .text-wrapper-6 {
     width: 315px;
     top: 0;
     font-weight: 700;
@@ -523,7 +523,7 @@
     line-height: 23.4px;
   }
   
-  .dark .text-wrapper-7 {
+  .text-wrapper-7 {
     width: 315px;
     top: 33px;
     font-weight: 400;
@@ -536,20 +536,20 @@
     line-height: 23.4px;
   }
   
-  .dark .view-6 {
+  .view-6 {
     position: relative;
     width: 319px;
     height: 361px;
   }
   
-  .dark .view-7 {
+  .view-7 {
     position: relative;
     width: 319px;
     height: 431px;
     margin-right: -5px;
   }
   
-  .dark .section-4 {
+  .section-4 {
     height: 508px;
     top: 0;
     display: flex;
@@ -561,7 +561,7 @@
     left: 0;
   }
   
-  .dark .rectangle-13 {
+  .rectangle-13 {
     position: absolute;
     width: 649px;
     height: 23px;
@@ -570,7 +570,7 @@
     background-color: #ff006f;
   }
   
-  .dark .rectangle-14 {
+  .rectangle-14 {
     position: absolute;
     width: 649px;
     height: 23px;
@@ -579,7 +579,7 @@
     background-color: #ff006f;
   }
   
-  .dark .group-5 {
+  .group-5 {
     position: relative;
     flex: 1;
     width: 986px;
@@ -587,7 +587,7 @@
     margin-right: -2px;
   }
   
-  .dark .view-8 {
+  .view-8 {
     position: absolute;
     width: 653px;
     height: 244px;
@@ -595,7 +595,7 @@
     left: 335px;
   }
   
-  .dark .text-wrapper-8 {
+  .text-wrapper-8 {
     position: absolute;
     width: 649px;
     top: 33px;
@@ -608,7 +608,7 @@
     letter-spacing: 0;
   }
   
-  .dark .text-wrapper-9 {
+  .text-wrapper-9 {
     position: absolute;
     width: 649px;
     top: 0;
@@ -622,7 +622,7 @@
     letter-spacing: 0;
   }
   
-  .dark .view-9 {
+  .view-9 {
     position: absolute;
     width: 651px;
     height: 244px;
@@ -630,7 +630,7 @@
     left: 335px;
   }
   
-  .dark .div-wrapper {
+  .div-wrapper {
     position: absolute;
     width: 653px;
     height: 211px;
@@ -638,13 +638,13 @@
     left: 0;
   }
   
-  .dark .overlap-group-3 {
+  .overlap-group-3 {
     position: relative;
     width: 649px;
     height: 211px;
   }
   
-  .dark .link-effects-2 {
+  .link-effects-2 {
     position: absolute;
     width: 89px;
     top: 73px;
@@ -657,7 +657,7 @@
     line-height: normal;
   }
   
-  .dark .div-3 {
+  .div-3 {
     position: absolute;
     width: 649px;
     top: 0;
@@ -670,15 +670,15 @@
     letter-spacing: 0;
   }
   
-  .dark .text-wrapper-10 {
+  .text-wrapper-10 {
     color: #f1b1cd;
   }
   
-  .dark .text-wrapper-11 {
+  .text-wrapper-11 {
     color: #f1b2ce;
   }
   
-  .dark .overlap {
+  .overlap {
     position: absolute;
     top: 0;
     left: 0;
@@ -686,7 +686,7 @@
     height: 768px;
   }
   
-  .dark .header {
+  .header {
     position: absolute;
     width: 1024px;
     height: 768px;
@@ -698,7 +698,7 @@
     background-position: 50% 50%;
   }
   
-  .dark .title-2 {
+  .title-2 {
     position: absolute;
     width: 493px;
     height: 71px;
@@ -706,13 +706,13 @@
     left: 513px;
   }
   
-  .dark .overlap-group-4 {
+  .overlap-group-4 {
     position: relative;
     width: 491px;
     height: 71px;
   }
   
-  .dark .rectangle-15 {
+  .rectangle-15 {
     position: absolute;
     width: 491px;
     height: 70px;
@@ -721,7 +721,7 @@
     background-color: #ff006f;
   }
   
-  .dark .text-wrapper-12 {
+  .text-wrapper-12 {
     position: absolute;
     width: 491px;
     top: 0;
@@ -734,7 +734,7 @@
     letter-spacing: 0;
   }
   
-  .dark .no-focus {
+  .no-focus {
     position: absolute;
     width: 759px;
     top: 318px;
@@ -749,7 +749,7 @@
     white-space: nowrap;
   }
   
-  .dark .theme-switch {
+  .theme-switch {
     position: absolute;
     width: 230px;
     height: 26px;
@@ -757,7 +757,7 @@
     left: 397px;
   }
   
-  .dark .view-10 {
+  .view-10 {
     display: inline-flex;
     height: 26px;
     align-items: center;
@@ -770,7 +770,7 @@
     border-color: #ff006f;
   }
   
-  .dark .switch-text {
+  .switch-text {
     position: relative;
     width: 44px;
     height: 23px;
@@ -783,7 +783,7 @@
     letter-spacing: 0;
   }
   
-  .dark .view-11 {
+  .view-11 {
     display: inline-flex;
     height: 26px;
     align-items: center;
@@ -794,7 +794,7 @@
     left: 80px;
   }
   
-  .dark .view-12 {
+  .view-12 {
     display: inline-flex;
     height: 26px;
     align-items: center;
@@ -805,7 +805,7 @@
     left: 0;
   }
     
-  .dark .view-13 {
+  .view-13 {
     position: absolute;
     width: 54px;
     height: 26px;
@@ -813,7 +813,7 @@
     left: 943px;
   }
   
-  .dark .ellipse {
+  .ellipse {
     position: absolute;
     width: 9px;
     height: 9px;
@@ -824,7 +824,7 @@
     box-shadow: 0px 0px 4px 2px #ff0070;
   }
   
-  .dark .text-wrapper-16 {
+  .text-wrapper-16 {
     position: absolute;
     width: 33px;
     top: 0;
